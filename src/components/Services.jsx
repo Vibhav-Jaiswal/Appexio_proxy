@@ -3,7 +3,7 @@ import image from "../accets/image.jpg";
 
 const Services = () => {
   return (
-    <div className="h-[1048px] w-[1270px] mx-[30px]">
+    <div className="h-[1200px] w-[1270px] mx-[30px]">
       <div className=" flex flex-col h-[776px] gap-[48px]">
         <span className="text-[36px] text-center font-semibold tracking-[-3%] text-[#1300D2]">
           Appexio Proxy Type
