@@ -4,7 +4,7 @@ import hero from "../accets/hero.jpg";
 const Hero = () => {
   return (
     <>
-      <div className="w-[1200px] h-[650px] flex justify-center items-center mx-auto py-[28px]">
+      <div className="w-[1200px] h-[650px] flex justify-center items-center mx-auto px-[28px]">
         <div className="flex flex-col gap-[50px]">
           <p className="text-[64px] font-semibold leading-[83.2px]">
             Need Residential Proxies!
