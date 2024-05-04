@@ -7,10 +7,12 @@ import Resource from "./pages/Resource";
 import Blog from "./pages/Blog";
 import Signup from "./pages/Signup";
 import Signin from "./pages/Signin";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/proxies" element={<Proxies />} />
